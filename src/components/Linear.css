@@ -1,0 +1,18 @@
+h5 {
+    text-align: end;
+    color: rgb(224, 224, 224)
+}
+
+.MuiLinearProgress-barColorPrimary {
+    background-color: #05fdd8 !important;
+}
+
+.MuiLinearProgress-root {
+    height: 2px;
+}
+
+@media(max-width:768px) {
+    .linha {
+        width: 100%;
+    }
+}

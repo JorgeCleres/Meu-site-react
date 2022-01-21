@@ -1,0 +1,68 @@
+.home {
+    padding: 90px 60px;
+    background-image: linear-gradient(to right, rgba(0,0,0), rgba(0,0,0, 0.3)), url('../../imagens/image6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home h2 {
+    color: white;
+    font-size: 6em;
+    line-height: 0.9;
+    letter-spacing: -6px;
+}
+
+.home h2 span {
+    color: #05FDD8;
+    font-size: 1.2em;
+}
+
+.home p {
+    color: white;
+    font-size: 22px;
+    margin: 10px 6px;
+}
+
+.home .btn {
+    padding: 10px 50px;
+    background: transparent;
+    border: 1px solid #05FDD8;
+    color: #05FDD8;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+    top: 40px;
+    left: 6px;
+    position: relative;
+}
+
+.home .btn:hover {
+    background: #05FDD8;
+    color: black;
+}
+
+@media (max-width: 992px) {
+    .home {
+        padding: 170px 20px 100px;
+    }
+    .home h2 {
+        font-size: 4.9em;
+    }
+}
+
+@media(max-width: 768px) {
+    .home {
+        padding: 170px 20px 50px;
+    }
+    .home h2 {
+        font-size: 3.4em;
+        letter-spacing: -3px;
+    }
+}
+
+@media(max-width: 768px) {
+    .home h2 {
+        font-size: 2.6em;
+    }
+}

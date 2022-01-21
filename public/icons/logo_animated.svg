@@ -1,0 +1,59 @@
+<svg width="350" height="357" viewBox="0 0 350 357" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<g filter="url(#filter0_d)">
+<path stroke="#05FDD8" stroke-width="20" d="M0,11L287,11" class="EcNcCvAH_0"></path>
+</g>
+<g filter="url(#filter1_d)">
+<path d="M19.1152 349.849L295 7" stroke="#05FDD8" stroke-width="20" class="EcNcCvAH_1"></path>
+</g>
+<g filter="url(#filter2_d)">
+<path stroke="#05FDD8" stroke-width="20" d="M17,356L17,100" class="EcNcCvAH_2"></path>
+</g>
+<g filter="url(#filter3_d)">
+<path stroke="#05FDD8" stroke-width="20" d="M98,356L98,97" class="EcNcCvAH_3"></path>
+</g>
+<g filter="url(#filter4_d)">
+<path stroke="#05FDD8" stroke-width="20" d="M101.331,349.582L342.331,61.5824" class="EcNcCvAH_4"></path>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="1" width="287" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+<feOffset></feOffset>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+</filter>
+<filter id="filter1_d" x="11.3242" y="0.730957" width="291.466" height="355.387" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+<feOffset></feOffset>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+</filter>
+<filter id="filter2_d" x="7" y="100" width="20" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+<feOffset></feOffset>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+</filter>
+<filter id="filter3_d" x="88" y="97" width="20" height="259" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+<feOffset></feOffset>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+</filter>
+<filter id="filter4_d" x="93.6621" y="55.165" width="256.338" height="300.835" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+<feOffset></feOffset>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+</filter>
+</defs>
+<style data-made-with="vivus-instant">.EcNcCvAH_0{stroke-dasharray:287 289;stroke-dashoffset:288;animation:EcNcCvAH_draw 2000ms linear 0ms forwards;}.EcNcCvAH_1{stroke-dasharray:441 443;stroke-dashoffset:442;animation:EcNcCvAH_draw 2000ms linear 250ms forwards;}.EcNcCvAH_2{stroke-dasharray:256 258;stroke-dashoffset:257;animation:EcNcCvAH_draw 2000ms linear 500ms forwards;}.EcNcCvAH_3{stroke-dasharray:259 261;stroke-dashoffset:260;animation:EcNcCvAH_draw 2000ms linear 750ms forwards;}.EcNcCvAH_4{stroke-dasharray:376 378;stroke-dashoffset:377;animation:EcNcCvAH_draw 2000ms linear 1000ms forwards;}@keyframes EcNcCvAH_draw{100%{stroke-dashoffset:0;}}@keyframes EcNcCvAH_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

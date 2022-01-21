@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+
+.card_service{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+    margin: 70px auto;
+}
+
+.card_service::before {
+    content: '';
+    position: absolute;
+    width: 120%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #05FDD8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    opacity: 1;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+    background: #5af5ff;
+}
+
+.bg::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 5px);
+    height: calc(100% - 6px);
+    clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 15% 100%, 0 85%);
+    background: linear-gradient(180deg, rgba(0, 255, 209, 0.098) 0%, rgba(123, 247, 255, 0.03) 100%), #0C0C0C;
+}
+
+.bg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 0;
+    background: #5af5ff;
+}
+
+.card_service:hover .bg::after{
+    height: 100%;
+    transition: 1.5s;
+}
+
+.card_service:hover::before{
+    height: 5px;
+    top: 100%;
+    transition: top 1.5s;
+    animation: hide .5s 1.5s forwards 1;
+}
+
+@keyframes hide{
+    100%{
+        width: 0;
+        opacity: 0;
+    }
+}
+
+.card_service:hover{
+    transform: translateY(-40px);
+}
+
+.card_service .content{
+    position: relative;
+    z-index: 3;
+    padding: 40px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'dosis';
+    font-size: 60px;
+    text-transform: capitalize;
+    color: none;
+    -webkit-text-stroke: 1px #5af5ff;
+    margin-bottom: 30px;
+}
+
+.info{
+    font-family: 'roboto', sans-serif;
+    color: #5af5ff;
+    text-align: center;
+    line-height: 25px;
+}
+
+.card_service:hover .info{
+    transition: .5s;
+    transition-delay: 0.9s;
+    color: #000;
+}
+
+
+@media(max-width: 992px) {
+    .card_service {
+        margin: 70px auto;
+    }
+}
+
+@media(max-width: 768px) {
+    .card_service {
+        margin: 40px auto;
+    }
+}

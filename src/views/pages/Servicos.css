@@ -1,0 +1,44 @@
+.servicos {
+    padding: 60px 50px 0;
+    margin: 50px auto 0px;
+    background: rgba(0,0,0);
+}
+
+.servicos h2 {
+    color: rgb(15, 15, 15);
+    font-size: 7em;
+    line-height: 1;
+    letter-spacing: -6px;
+    text-shadow:#05FDD8 1px -1px, #05FDD8 -1px 1px, #05FDD8 1px 1px, #05FDD8 -1px -1px;
+    margin-bottom: 20px;
+}
+
+.servicos .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+@media(max-width:768px) {
+    .servicos {
+        padding: 80px 20px 0;
+    }
+    .servicos h2 {
+        font-size: 7em;
+        margin-bottom: 60px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .servicos h2 {
+        font-size: 6em;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 480px) {
+    .servicos h2 {
+        font-size: 4.5em;
+    }
+}

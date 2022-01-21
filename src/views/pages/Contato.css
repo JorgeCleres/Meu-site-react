@@ -1,0 +1,106 @@
+.contato {
+    padding: 15px 50px;
+    background-image: linear-gradient(to right, rgba(0,0,0), rgba(0,0,0, 0.3)), url('https://besthqwallpapers.com/Uploads/16-9-2019/104414/thumb2-black-abstract-texture-waves-texture-black-background-with-waves-noise-texture-3d-waves-texture.jpg');
+    background-size: cover;
+}
+
+.contato h2 {
+    color: rgb(15,15,15);
+    font-size: 7em;
+    line-height: 1;
+    letter-spacing: -6px;
+    text-shadow:#05FDD8 1px -1px, #05FDD8 -1px 1px, #05FDD8 1px 1px, #05FDD8 -1px -1px;
+}
+
+form {
+    display: flex;
+    justify-content: initial;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+form button {
+    width: 40%;
+    margin: 20px 0;
+    height: 45px;
+    padding: 0 5px;
+    background: transparent;
+    color: #05FDD8;
+    border: 2px solid #05FDD8;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.4s
+}
+
+form button:hover {
+    width: 42%;
+    background: #05FDD8;
+    color: black;
+    border: 2px solid #05FDD8;
+}
+
+textarea {
+    font-family: sans-serif !important;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 20px 0;
+    height: 45px;
+    padding: 0 5px;
+    background: transparent;
+    border-bottom: 2px solid #05FDD8;
+    border-left: 1px solid transparent;
+    border-right: 1px;
+    border-top: 1px;
+    color: rgb(250, 250, 250);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contato .icon {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.contato .icon a {
+    margin: 5px auto;
+    transition: 0.5s;
+}
+
+.contato .icon a:hover {
+    transform: rotate3d(2, 1, 4, 360deg);
+}
+
+@media(max-width:992px) {
+    form {
+        width: 70%;
+    }
+    .contato .icon a {
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .contato h2 {
+        font-size: 7em;
+    }
+}
+
+@media (max-width: 568px) {
+    .contato h2 {
+        font-size: 6em;
+    }
+}
+
+@media(max-width: 480px) {
+    .contato h2 {
+        font-size: 4.5em;
+    }
+    form {
+        width: 100%;
+    }
+}
